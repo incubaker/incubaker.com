@@ -1,0 +1,16 @@
+#main{width: 600px;margin: 175px auto 0 auto;text-align:center;}
+#main .oswald{font-family: 'Oswald' !important;font-style: normal;font-weight: 400;text-transform:uppercase;}
+#main .logo{font-size: 75px;line-height:75px;margin:0;padding-bottom:25px;}
+#main .list-box{margin:40px 0 0 0;}
+#main .list-box hr{border-color:#000;padding:0;margin:auto;}
+#main .list-box.projects hr{width:227px}
+#main .list-box.team hr{width:192px;}
+#main .list-box h3{font-size:18px;line-height:27px;margin:-15px 0 0 0;}
+#main .list-box h3 span{background:#fff;border-left:12px #fff solid;border-right:12px #fff solid;}
+#main .list-box ul{list-style:none;margin:0;padding:0;}
+#main .list-box li{display:inline;color:#978F8A;font-size:12px;}
+#main .list-box li a{padding:7px;text-decoration:none;}
+#main .list-box li a:visited,
+#main .list-box li a:link,
+#main .list-box li a:active{color:#978F8A;}
+#main .list-box li a:hover{color:#645C59;}

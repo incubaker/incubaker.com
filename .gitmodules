@@ -1,0 +1,6 @@
+[submodule "submodules/twitter-bootstrap-font-awesome"]
+	path = submodules/twitter-bootstrap-font-awesome
+	url = git://github.com/incubaker/twitter-bootstrap-font-awesome.git
+[submodule "submodules/html5-boilerplate"]
+	path = submodules/html5-boilerplate
+	url = git://github.com/h5bp/html5-boilerplate.git
