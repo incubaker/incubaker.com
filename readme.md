@@ -10,11 +10,20 @@ To download the submodules
 
 	git submodule update --init
 
-to push run
+To push run
 
 	git push origin master
 	git push origin gh-pages
 
-if the `gh-pages` branch does not exist
+If the `gh-pages` branch does not exist
 
-	git branch gh-pages
+	git branch gh-pages	
+	
+If `.git/config` contains
+
+	push = +refs/heads/master:refs/heads/gh-pages
+	push = +refs/heads/master:refs/heads/master
+	
+in the `[remote "origin"]` section then all that is needed is to push to origin and it will push to both.
+
+	git push origin 
