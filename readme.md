@@ -10,10 +10,11 @@ To download the submodules
 
 	git submodule update --init
 
-[*BETA*] to push run
-	
+to push run
+
 	git push origin master
-	git checkout gh-pages
-	git merge master
 	git push origin gh-pages
-	git checkout master	
+
+if the `gh-pages` branch does not exist
+
+	git branch gh-pages
